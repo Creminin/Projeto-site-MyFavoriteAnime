@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@900&display=swap');
+
+.pagination{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  border: 3px solid #2d2d3e;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.pages {
+  padding: 10px;
+}
+
+.OffSet-Btn{
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+
+  border-radius: 5px;
+  border: 2px solid rgb(245, 143, 223);
+  background-color: transparent;
+
+  color: rgb(245, 143, 223);
+  font-family: 'Poppins', sans-serif;
+  transition: 100ms ease-in;
+}
+
+.OffSet-Btn:hover{
+  border: 2px solid #fff;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+}
+
+.pagination__item--active{
+  height: 40px;
+  width: 40px;
+
+  border-radius: 5px;
+  border: 2px solid rgb(245, 143, 223);
+  background-color: rgb(245, 143, 223);
+
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.Back-And-Skip{
+  display: flex;
+  align-items: center;
+  color: rgb(245, 143, 223);
+  padding: 10px;
+
+  background: #2d2d3e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Bungee', cursive;
+}
+
+.Skip{
+  border-radius: 0 5px 5px 0;
+}
+
+.Back{
+  border-radius: 5px 0 0 5px;
+}
+
+.Skip-img-Back{
+  height: 40px;
+  margin: 0 5px;
+}

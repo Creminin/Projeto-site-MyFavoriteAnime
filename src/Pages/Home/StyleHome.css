@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@900&display=swap');
+
+.HeaderHome{
+  background-color: #1D1D2A;
+  border-bottom: 3px solid #2d2d3e;
+  width: 100%;
+}
+
+.loader{
+  height: 200px;
+}
+
+.Container-Results{
+  max-width: 1200px;
+  width: 100%;
+  margin: 50px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.animes-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+  grid-gap: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.animes-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.CardAnimes{
+  position: relative;
+  height: 200px;
+  width: 262px;
+}
+
+.Container-ImgAnimes{
+  height: 200px;
+  width: 262px;
+}
+
+.ImgAnimes{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(0, 0, 0, 0.301);
+  border-radius: 10px;
+  transition: 200ms ease-in;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.overlay:hover{
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.ActivePlay{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 200ms ease-in;
+}
+
+.BtnPlay{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.IconPlay{
+  height: 50px;
+}
+
+.ActivePlay:hover{
+  opacity: 100%;
+}
+
+.TittleAnimes{
+  color: #fff;
+  text-align: start;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.Eps{
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}

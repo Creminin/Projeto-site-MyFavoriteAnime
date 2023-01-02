@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+
+.BgVideo{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.NavSign{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.LogoSign{
+  height: 70px;
+  margin-left: 10px;
+}
+
+.TextLogin{
+  color: rgb(144, 142, 142);
+  margin-right: 10px;
+}
+
+.AccessLogin{
+  padding: 0;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ContainerSign{
+  display: flex;
+  justify-content: center;
+}
+
+.ContentSign{
+  background-color: #0c162dc5;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  border: 1px solid #484858;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 24px;
+}
+
+.WelcomeText{
+  color: #627597;
+  font-size: 10px;
+}
+
+#FormSign{
+  margin: 0;
+}
+
+.Step1{
+  display: flex;
+  flex-direction: column;
+}
+
+.DivLabel{
+  margin-top: 25px;
+}
+
+.ContainerInput{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Arrow{
+  height: 25px;
+}
+
+.LabelSign{
+  color: #00cfc8;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.InputsSign{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  color: #fff;
+  width: 350px;
+  margin-right: 15px;
+  height: 25px;
+}
+
+.InputsSign:focus{
+  border: 1px solid #007ccf;
+}
+
+.BtnSubmit:focus{
+  background-color: rgb(102, 225, 102);
+}
+

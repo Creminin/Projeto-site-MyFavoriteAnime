@@ -1,0 +1,149 @@
+.PagesLogin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ImgBackground{
+  z-index: -1;
+  height: 650px;
+}
+
+.LogoContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.SubText{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #727287;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.SubText h1{
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+
+.ContainerForm{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ContentForm{
+  background-color: #1D1D2A;
+  border-radius: 5px;
+  position: relative;
+}
+
+.ContentForm::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background: linear-gradient(45deg, #fff000, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
+  #fff000, #00ff00, #0099ff, #001aff, #a200ff);
+  border-radius: 5px;
+  background-size: 300%;
+  filter: blur(5px);
+  animation: AnimarBorda 8s linear infinite;
+}
+
+@keyframes AnimarBorda{
+  0%{
+    background-position: 0;
+  }
+  100%{
+    background-position: 300%;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.inputs{
+  background-color: #13131d;
+  color: #fff;
+  border: 1px solid #484858;
+  padding: 8px;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.LabelsLogin{
+  color: #9a9aa9;
+}
+
+.BtnSubmit{
+  background-color: rgb(78, 181, 78);
+  border: none;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.SubTittle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.SubTittleText{
+  padding: 16px 53px;
+  border: 1px solid #484858;
+  border-radius: 5px;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.793);
+}
+
+.CreateAccount{
+  color: rgb(64, 141, 217);
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

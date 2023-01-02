@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+footer{
+  border-top: 3px solid #2d2d3e;
+  color: rgb(245, 143, 223);
+  position: relative;
+}
+
+.BannerImg{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.ContainerFooter{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.ContentFooter{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.TittleFooter{
+  font-family: 'Bungee', cursive;
+  font-size: 39px;
+  color: #C74FAD;
+  text-shadow: 3px 2px 9px rgba(241, 24, 195, 0.51);
+  height:75px;
+}
+
+.SubTittleFooter{
+  color: #F6C7EC;
+  font-family: 'Bungee', cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 12px;
+  font-size: 10px;
+  height: 12px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+
+.items {
+  padding: 8px;
+  color: #C74FAD;
+  font-family: 'Bungee', cursive;
+  font-size: 12px;
+}
+
+.SocialImg{
+  height: 60px;
+}

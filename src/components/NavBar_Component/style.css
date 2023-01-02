@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+nav{
+  padding: 16px 0;
+  display: flex;
+}
+
+.main-nav{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  max-width: 1200px;
+  width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.Logo{
+  height: 150px;
+  margin-right: 50px;
+}
+
+
+.items ul {
+  display: flex;
+  list-style: none;
+}
+
+a{
+  color: rgb(245, 143, 223);
+  text-decoration: none;
+  padding: 0 10px;
+  font-family: 'Bungee', cursive;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.InputSearch-content{
+  display: flex;
+  align-items: center;
+  background-color: #1D1D2A;
+  width: 35%;
+  position: relative;
+}
+
+#InputSearch{
+  background-color: transparent;
+  color: rgb(245, 143, 223);
+  outline: none;
+  border: none;
+  padding-left: 8px;
+  font-family: 'Bungee', cursive;
+  width: 100%;
+}
+
+#InputSearch:hover{
+  background-color: #484858;
+}
+
+.BtnSearch{
+  background-color: #1D1D2A;
+  border: none;
+  height: 100%;
+  padding: 5px 10px;
+  border-right: 1px solid #58586969;
+  margin-right: 3px;
+}
+
+.IconSearch{
+  background-color: #1D1D2A;
+  height: 100%;
+  width: 20px;
+  opacity: 70%;
+}
+
+.BtnClear{
+  background-color: transparent;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  left: 94%;
+  transition: 300ms ease-in;
+  position: absolute;
+}
+
+.IconClear{
+  height: 100%;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.ContainerUser{
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.UserIcon{
+  height: 80px;
+}
